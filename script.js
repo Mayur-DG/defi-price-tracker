@@ -1,4 +1,5 @@
-const apiKey = '01887645-561a-4b99-87bd-d1072bb90a1d'; // Replace with your API key
+import apikey from './config.js';
+ // Replace with your API key
 
 document.getElementById('getPrice').addEventListener('click', () => {
   const crypto = document.getElementById('cryptoInput').value.toUpperCase();
