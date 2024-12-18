@@ -6,7 +6,7 @@ document.getElementById('getPrice').addEventListener('click', () => {
   if (crypto) {
     fetchPrice(crypto);
   } else {
-    alert('Please enter a cryptocurrency symbol (e.g., BTC, ETH)');
+    alert('BTC');
   }
 });
 
